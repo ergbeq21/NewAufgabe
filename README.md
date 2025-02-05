@@ -49,7 +49,6 @@ This project is built using Svelte and styled with CSS. It includes a simple lay
 
 ## Getting Started
 
-### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ## Creating a Project
