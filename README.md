@@ -36,3 +36,30 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+
+# Svelte Project
+
+This project is built using Svelte and styled with CSS. It includes a simple layout with a header, main content area, and footer. The main content dynamically updates based on user input.
+
+## Features
+- Responsive design with a clean UI
+- Dynamic state management with `$state`
+- Flexible layout with child component rendering
+
+## Getting Started
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed.
+
+## Creating a Project
+
+If you're seeing this, you've probably already completed this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npx sv create
+
+# create a new project in my-app
+npx sv create my-app
+

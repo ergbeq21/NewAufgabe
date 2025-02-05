@@ -1,48 +1,50 @@
 
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/* Header styling */
 header {
-    background-color: #007bff;
-    color: white;
+    background-color: #007bff; /* Blue background */
+    color: white; 
     padding: 20px;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+    text-align: center; /* Centers the text */
+    font-size: 1.5rem; 
+    font-weight: bold; 
 }
 
+/* Main content container */
 .body {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
     padding: 20px;
 }
 
+/* Main content box */
 main {
     background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 80%; 
     max-width: 800px;
     text-align: center;
 }
-
+/* Footer styling */
 footer {
-    background-color: #222;
+    background-color: #222; 
     color: white;
     text-align: center;
     padding: 10px;
-    height: 30px;
+    height: 30px; 
     font-size: 0.9rem;
 }
