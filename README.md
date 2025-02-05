@@ -16,8 +16,9 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 ## Installation
 ```bash
- - git clone git@github.com:ergbeq21/NewAufgabe.git 
-```
- - npm install 
- - npm run dev
+git clone git@github.com:ergbeq21/NewAufgabe.git 
+npm install 
+npm run dev
+
+ ```
 
