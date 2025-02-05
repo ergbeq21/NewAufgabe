@@ -38,7 +38,7 @@ You can preview the production build with `npm run preview`.
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
 
-# Svelte Project
+# Message Application
 
 This project is built using Svelte and styled with CSS. It includes a simple layout with a header, main content area, and footer. The main content dynamically updates based on user input.
 
