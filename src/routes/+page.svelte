@@ -10,7 +10,7 @@
 </script>
 
 <div class="container">
-<h1>Verandert by gani </h1>
+<h1 class="title">Message Application</h1>
     <!-- This heading displays the current value of the "message" variable. -->
     <h1 class="message">{message}</h1>
 
@@ -18,6 +18,6 @@
          When the user types in the input, the "message" value updates,
          and the heading automatically reflects the change.
     -->
-    <input type="text" bind:value={message}>
+    <input class="input1" type="text" bind:value={message}>
 
 </div>

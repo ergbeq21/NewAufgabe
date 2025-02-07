@@ -10,7 +10,11 @@
 
 <header>
     <!-- This is the header section of the page, displaying a static title. -->
-    This is my Projekt
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#About us">About Us</a>
+        <a href="#Contact">Contact</a>
+    </nav>
 </header>
 
 <div class="body">

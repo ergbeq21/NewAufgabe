@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* Light gray background */
-    color: tan; /* Dark gray text */
+    color: tan;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -12,12 +12,31 @@ body {
 
 /* Header styling */
 header {
-    background-color: #c5f009; /* Blue background */
+    background-color: #1109f0; /* Blue background */
     color: white; 
     padding: 20px;
     text-align: center; 
-    font-size: 1.5rem; 
+    font-size: 20px; 
     font-weight: bold; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+}
+
+.navbar a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    
 }
 
 /* Main content container */
@@ -47,4 +66,17 @@ footer {
     padding: 10px;
     height: 30px; 
     font-size: 0.9rem;
+}
+
+.input1{
+    color: black;
+}
+
+.message{
+    color: black;
+    font-size: 20px ;
+}
+
+.title{
+    color: black;
 }
